@@ -1,0 +1,36 @@
+{
+  "name": "月光日誌 Moonlog",
+  "short_name": "Moonlog",
+  "description": "溫柔的夜晚習慣日誌，陪你慢慢點亮一顆月光星球。",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF8F3",
+  "theme_color": "#FAF8F3",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "月光伸展",
+      "url": "/stretch",
+      "description": "開始今晚的月光伸展"
+    }
+  ]
+}

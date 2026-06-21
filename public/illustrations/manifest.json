@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "transition": { "type": "crossfade", "durationMs": 900 },
+  "ambient": { "float": true, "beaconGlowFromStage": 5 },
+  "stages": [
+    { "stage": 0, "min": 0,  "rank": "微光旅人",   "name": "靜靜的月光星球",     "slug": "moonlit",
+      "art": { "1x": "/illustrations/planet/planet-stage-0-moonlit@1x.webp", "2x": "/illustrations/planet/planet-stage-0-moonlit@2x.webp" } },
+    { "stage": 1, "min": 3,  "rank": "種花的人",   "name": "白玫瑰結了花苞",     "slug": "rosebud",
+      "art": { "1x": "/illustrations/planet/planet-stage-1-rosebud@1x.webp", "2x": "/illustrations/planet/planet-stage-1-rosebud@2x.webp" } },
+    { "stage": 2, "min": 7,  "rank": "拾星人",     "name": "白玫瑰盛開了",       "slug": "rosebloom",
+      "art": { "1x": "/illustrations/planet/planet-stage-2-rosebloom@1x.webp", "2x": "/illustrations/planet/planet-stage-2-rosebloom@2x.webp" } },
+    { "stage": 3, "min": 12, "rank": "夜的同伴",   "name": "緬因貓來作伴",       "slug": "cat",
+      "art": { "1x": "/illustrations/planet/planet-stage-3-cat@1x.webp", "2x": "/illustrations/planet/planet-stage-3-cat@2x.webp" } },
+    { "stage": 4, "min": 18, "rank": "守光人",     "name": "小燈塔立起來了",     "slug": "lighthouse",
+      "art": { "1x": "/illustrations/planet/planet-stage-4-lighthouse@1x.webp", "2x": "/illustrations/planet/planet-stage-4-lighthouse@2x.webp" } },
+    { "stage": 5, "min": 25, "rank": "點燈人",     "name": "燈塔亮起來了",       "slug": "beacon",
+      "art": { "1x": "/illustrations/planet/planet-stage-5-beacon@1x.webp", "2x": "/illustrations/planet/planet-stage-5-beacon@2x.webp" } },
+    { "stage": 6, "min": 33, "rank": "月光守護者", "name": "小船歸航,夜安了",   "slug": "boathome",
+      "art": { "1x": "/illustrations/planet/planet-stage-6-boathome@1x.webp", "2x": "/illustrations/planet/planet-stage-6-boathome@2x.webp" } }
+  ]
+}

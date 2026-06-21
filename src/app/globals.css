@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif+TC:wght@500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  background:
+    radial-gradient(120% 60% at 50% -10%, #efeaf4 0%, rgba(239,234,244,0) 55%),
+    #FAF8F3;
+  color: #4F5968;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 進場浮起：元素先 opacity-0 + animate-rise */
+.rise { opacity: 0; transform: translateY(12px); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .rise { opacity: 1 !important; transform: none !important; }
+}
